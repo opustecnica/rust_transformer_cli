@@ -1,0 +1,1 @@
+C:\Users\root\Gits\rust_transformer_cli\target\release\librust_transformer.rlib: C:\Users\root\Gits\rust_transformer_cli\src\embed_utils\jina_implementation\mod.rs C:\Users\root\Gits\rust_transformer_cli\src\embed_utils.rs C:\Users\root\Gits\rust_transformer_cli\src\lib.rs

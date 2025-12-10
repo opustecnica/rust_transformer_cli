@@ -1,6 +1,5 @@
-mod embed_utils;
-use embed_utils::build_text_embedder;
 use clap::Parser;
+use rust_transformer::build_text_embedder;
 use serde::Serialize;
 
 /// A standalone CLI for text-to-embedding transformations.
@@ -59,7 +58,7 @@ struct EmbedResult {
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
-    
+
     if args.verbose {
         println!("Initializing model: {}...", args.model);
     }
@@ -73,16 +72,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             std::process::exit(1);
         }
     };
-    
+
     // --- STEP 2: GENERATE THE EMBEDDING ---
     // This is the fast part—the actual inference.
-    
+
     // Check if input should be treated as JSON array
     let output = if args.json_input {
         // Handle JSON array input
         let text_array: Vec<String> = serde_json::from_str(&args.text)
             .map_err(|e| format!("Failed to parse JSON array: {}", e))?;
-        
+
         let mut results = Vec::new();
         for text in text_array {
             match embedder.embed(&text) {
@@ -98,11 +97,14 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 }
             }
         }
-        
+
         if args.verbose {
-            println!("\nTransformation Output ({} texts processed):", results.len());
+            println!(
+                "\nTransformation Output ({} texts processed):",
+                results.len()
+            );
         }
-        
+
         if args.pretty {
             serde_json::to_string_pretty(&results)?
         } else {
@@ -113,9 +115,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         match embedder.embed(&args.text) {
             Ok(embedding_array) => {
                 if args.verbose {
-                    println!("\nTransformation Output ({} elements):", embedding_array.len());
+                    println!(
+                        "\nTransformation Output ({} elements):",
+                        embedding_array.len()
+                    );
                 }
-                
+
                 if args.pretty {
                     serde_json::to_string_pretty(&embedding_array)?
                 } else {
@@ -128,7 +133,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             }
         }
     };
-    
+
     println!("{}", output);
 
     Ok(())

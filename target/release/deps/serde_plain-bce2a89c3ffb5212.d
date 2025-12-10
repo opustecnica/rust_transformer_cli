@@ -1,0 +1,11 @@
+C:\Users\root\Gits\rust_transformer_cli\target\release\deps\serde_plain-bce2a89c3ffb5212.d: C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\lib.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\de.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\error.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\macros.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\ser.rs
+
+C:\Users\root\Gits\rust_transformer_cli\target\release\deps\libserde_plain-bce2a89c3ffb5212.rlib: C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\lib.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\de.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\error.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\macros.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\ser.rs
+
+C:\Users\root\Gits\rust_transformer_cli\target\release\deps\libserde_plain-bce2a89c3ffb5212.rmeta: C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\lib.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\de.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\error.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\macros.rs C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\ser.rs
+
+C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\lib.rs:
+C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\de.rs:
+C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\error.rs:
+C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\macros.rs:
+C:\Users\root\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_plain-1.0.2\src\ser.rs:
